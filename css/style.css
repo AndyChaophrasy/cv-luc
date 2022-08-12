@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*********** FONT ************/
+h1  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    font-weight: 00;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    margin-top: 15%;
+    color: #2c3e7a;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 20px;
+ 
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px 20px 20px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+p{
+    font-size: 1em;
+    padding: 0 20px 10px 20px;
+}
+.textCenter{
+    text-align: center;
+}
+.textAlignRight{
+    text-align: right;
+}
+.svgCustom{
+    width: 20%;
+}
+#svgGroup{
+    margin: 0 20%;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    flex-direction: row-reverse;
+}
+.zone30{
+    width: 30%;
+    color: white;
+    background-color: #2c3e7a;
+    }
+.zone70{
+    width: 70%;
+}
+.flexContent{
+    width: 100%;
+    display: flex;
+}
+.zone20{
+    width: 30%;
+}
+.zone80{
+    width: 70%;
+}
+.yellow{
+background-color: #e1c043;
+}
+/*.profile*/
+#portait{
+    border-radius: 50%;
+    width: 70%;  
+    margin: 10% 15% 10% 15%;
+}
+.icon{
+    color: white;
+    padding-right: 10px;
+    scale: 100%;
+}
+.contactInfo2{
+    color: white;
+    display: flex;
+    padding: 5px  20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+section, div{
+    padding-bottom: 10px 30px;
+}
+
+/* Progress*/
+.progressBar{
+    margin: -15px 0 20px 20px;
+   
+    }
+/*FIN*/
+
+/***********
+Media Query
+************/
+
+
+/* ZONE 1024 */
+@media (max-width: 1023px){
+    /*Base1*/
+     h1{ 
+        font-size: 3em;
+        text-align: center;
+        margin-top: 2%;
+    }
+     h2 {
+        font-size: 2em;
+        text-align: center;
+   
+     }
+     h3 {
+        text-align: center;
+        font-size: 2em;
+     }
+    h4{ 
+        font-size: 1.4em;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    p{
+        font-size: 1.4em;
+    }
+    .zone20, .textAlignRight{
+        text-align: center;
+        margin: 10px;
+    }
+    .zone70, .zone30, .zone80, .zone20 {
+        width: 100%;
+        /* height: auto; */
+        padding-bottom: 10px;
+    }
+    .flexContent{
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
+     }
+    .flexContent{
+   
+        flex-wrap: wrap;
+  
+    }
+    #blockVide{
+        display: none;
+    }
+    #portait{
+        border-radius: 50%;
+        width: 40%;  
+        margin: 4% 0% 0 30%;
+    }
+    hgroup{
+        align-content: center;
+    }
+    .svgCustom{
+        width: 16%;
+    }
+    #svgGroup{
+        margin: 0 10% 0 30%;
+    }
+    .progressBar{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+ } 
+ .textLeft{
+    text-align: left;
+ }
+
+ /* For mobile phones 800 */
+@media (max-width: 799px){
+    /*Base1*/
+    h1{ 
+        font-size: 3em;
+        text-align: center;
+        margin-top: 2%;
+    }
+     h2 {
+        font-size: 2em;
+        text-align: center;
+   
+     }
+     h3 {
+        text-align: center;
+        font-size: 2em;
+     }
+    h4{ 
+        font-size: 1.4em;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    p{
+        font-size: 1.4em;
+    }
+    .zone20, .textAlignRight{
+        text-align: center;
+        margin: 10px;
+    }
+    .zone70, .zone30, .zone80, .zone20 {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .flexContent{
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
+     }
+    .flexContent{
+   
+        flex-wrap: wrap;
+  
+    }
+    #blockVide{
+        display: none;
+    }
+    #portait{
+        border-radius: 50%;
+        width: 40%;  
+        margin: 4% 0% 0 30%;
+    }
+    hgroup{
+        align-content: center;
+    }
+    .svgCustom{
+        width: 16%;
+    }
+    #svgGroup{
+        margin: 0 10% 0 30%;
+    }
+    .progressBar{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+ } 
+ .textLeft{
+    text-align: left;
+ }
+
+  /* For mobile phones 500 */
+@media (max-width: 499px){
+    /*Base1*/
+    h1{ 
+        font-size: 2.2em;
+        text-align: center;
+        margin-top: 2%;
+    }
+     h2 {
+        font-size: 1.6em;
+        text-align: center;
+   
+     }
+     h3 {
+        text-align: center;
+        font-size: 1.2em;
+     }
+    h4{ 
+        font-size: 1em;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    p{
+        font-size: 1.4em;
+    }
+    .zone20, .textAlignRight{
+        text-align: center;
+        margin: 10px;
+    }
+    .zone70, .zone30, .zone80, .zone20 {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .flexContent{
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
+     }
+    .flexContent{
+   
+        flex-wrap: wrap;
+  
+    }
+    #blockVide{
+        display: none;
+    }
+    #portait{
+        border-radius: 50%;
+        width: 40%;  
+        margin: 4% 0% 0 30%;
+    }
+    hgroup{
+        align-content: center;
+    }
+    .svgCustom{
+        width: 16%;
+    }
+    #svgGroup{
+        margin: 0 10% 0 30%;
+    }
+    .progressBar{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+ } 
+ .textLeft{
+    text-align: left;
+ }
